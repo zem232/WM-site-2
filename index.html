@@ -13,13 +13,9 @@
 </head>
 
 <body>
-      <head>
-        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      </head>
 
       <h1>
-        BOOM/BOX DEMO
+        {BOOM/BOX} ROOM
       </h1>
 
 
@@ -46,12 +42,30 @@
       The (Bad) Box Room (Don't go here)
       </button>
 
-
-      <iframe id="music-frame" src="https://as-embed-player.adultswim.com/singles/2018/?trackid=track-30" width="405" height="405" frameborder="0"></iframe>
+      <select class='moods'>
+        <option value="eccentric">Eccentric</option>
+        <option value="elated">Elated</option>
+        <option value="moody">Moody</option>
+        <option value="indie">Independent</option>
+        <option value="rebellious">Rebellious</option>
+        <option value="relaxed">Relaxed</option>
+      </select>
+      <div class='music' id='NegGem1'>
+        <iframe class="NegGem" src="https://as-embed-player.adultswim.com/singles/2018/?trackid=track-30" width="405" height="405" frameborder="0"></iframe>
+      </div>
+      <iframe class="KingKrule" src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWSLdxrRriLgz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
       <div class='Boxes' id='Box1'></div>
       <div class='Boxes' id='Box2'></div>
       <div class='Boxes' id='Box3'></div>
+      <div class='Boxes' id='Box4'></div>
+      <div class='Boxes' id='Box5'></div>
+      <div class='Boxes' id='Box6'></div>
+      <div class='Boxes' id='Box7'></div>
+      <div class='Boxes' id='Box8'></div>
+      <div class='Boxes' id='Box9'></div>
+      <div class='Boxes' id='Box10'></div>
+
 
       <br><br><br>
       <div id='boxes'>
@@ -74,8 +88,8 @@
       </div>
 
       <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
         crossorigin="anonymous"></script>
 
   <script src="js/scripts.js"></script>

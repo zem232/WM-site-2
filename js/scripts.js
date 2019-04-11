@@ -1,23 +1,36 @@
 
-$('#music-frame').hide();
-  $('.Boxes').hide();
-   $('.Boxes2').hide();
+$('.Boxes').hide();
+$('.Boxes2').hide();
 $('#boxes').hide();
 $('#back').hide();
 $('#gobox').hide();
+$('.music').hide();
+$('.moods').hide();
+$('#NegGem1').hide();
 
+function hideToggle(button, elem){
+  $(button).toggle(function(){
+    $(elem).show();
+  }, function() {
+    $(elem).hide()
+  });
+}
 
 $('#boomRoom').on('click', function() {
   $('p').hide();
   $('#boomRoom').hide();
   $('#boxRoom').hide();
-  $('#music-frame').show();
+  $('#moods').show();
   $('#back').show();
   $('.Boxes').hide();
   $('.Boxes2').hide();
   $('#boxRoom2').hide();
-
+  $('.music').show();
 });
+
+
+
+
 
 $('#boxRoom').on('click', function() {
   $('p').hide()
@@ -76,7 +89,6 @@ $('#back').on('click', function() {
   $('p').show();
   $('#boomRoom').show();
   $('#boxRoom').show();
-  $('#music-frame').hide();
   $('#back').hide();
   $('.Boxes').hide();
   $('#boxes').hide();

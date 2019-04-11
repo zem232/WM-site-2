@@ -1,5 +1,5 @@
 body {
-  background: #41CE0E;
+  background: #FFFFFF;
   background-image: url("https://media.giphy.com/media/yeHiKJ5995Pd6/giphy.gif");
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
@@ -24,6 +24,12 @@ body {
 #boxes {
   padding: 5px;
   height: 200px;
+}
+
+#moods {
+  padding: 5px;
+  height: 200px;
+  position: relative;
 }
 
 .Boxes2 {
@@ -52,6 +58,12 @@ body {
   top: 150px;
   margin-right: 100px;
 }
+
+.NegGem {
+  position: relative;
+}
+
+
 
 #back {
   position: relative;
